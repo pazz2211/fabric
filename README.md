@@ -119,8 +119,8 @@ Giải nén và copy đến thư mục phát triển
 
 <h3>Tải và cài đặt Hyperledger Fabric</h3>
 <b>Tạo root project cho người lập trình Go, nhớ thay github_userid bằng tên github của mình (hoặc tên bất kỳ cũng đượcc nha)</b>
-</br><samp>&emsp;mkdir -p $HOME/go/src/github.com/<github_userid></samp>
-</br><samp>&emsp;cd $HOME/go/src/github.com/<github_userid></samp>
+</br><samp>&emsp;mkdir -p $HOME/go/src/github.com/&lt;github_userid&gt;</samp>
+</br><samp>&emsp;cd $HOME/go/src/github.com/&lt;github_userid&gt;</samp>
 
 </br><b>Tải fabric-samples, docker images và binaries</b>
 </br><samp>&emsp;curl -sSL https://bit.ly/2ysbOFE | bash -s</samp>
@@ -133,7 +133,7 @@ Giải nén và copy đến thư mục phát triển
 ## Cài đặt ứng dụng mẫu trong fabric-samples
 <h3>Xây dựng hệ thống mạng test-network</h3>
 <b>Truy cập thư mục chứa test-network, chạy file network.sh</b>
-</br><samp>&emsp;cd $HOME/go/src/github.com/<github_userid>/fabric-samples/test-network</samp>
+</br><samp>&emsp;cd $HOME/go/src/github.com/&lt;github_userid&gt;/fabric-samples/test-network</samp>
 </br><samp>&emsp;./network.sh down</samp>
 </br><samp>&emsp;./network.sh up</samp>
 
@@ -142,7 +142,7 @@ Giải nén và copy đến thư mục phát triển
 
 <h3>Sử dụng ứng dụng fabcar</h3>
 <b>Truy cập thư mục chứa fabcar, chạy file startFabric.h với đối số tương ứng ngôn ngữ mình muốn</b>
-</br><samp>&emsp;cd $HOME/go/src/github.com/<github_userid>/fabric-samples/fabcar</samp>
+</br><samp>&emsp;cd $HOME/go/src/github.com/&lt;github_userid&gt;/fabric-samples/fabcar</samp>
 </br><samp>&emsp;./startFabric.sh javascript</samp>
 
 </br><b>Truy cập thư mục của phần mềm sử dụng ngôn ngữ vừa chọn và cài đặt môi trường</b>
