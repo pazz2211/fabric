@@ -82,8 +82,14 @@ Hướng dẫn cài đặt dưới đây được thực hiện với:
 
 <h3>Cài đặt các phần mềm hỗ trợ ngôn ngữ Hyperledger Fabric sử dụng, chúng ta có Node, Javascript, Go, Java</h3>
 <b> NodeJS 10.19.0 và npm</b>
-</br><samp>&emsp;curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -</samp>
-</br><samp>&emsp;sudo npm install npm@5.6.0 -g</samp>
+</br><b> Trước tiên chúng ta update và upgrade </b>
+</br><samp>&emsp;sudo apt-get update –y</samp>
+</br><samp>&emsp;sudo apt upgrade –y</samp>
+
+</br><samp>&emsp;curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash –</samp>
+</br><samp>&emsp;sudo apt-get install –y nodejs</samp>
+</br><samp>&emsp;sudo apt-get install gcc g++ make</samp>
+</br><samp>&emsp;sudo npm install npm@6.14.17 -g</samp>
 
 </br><b> Go 1.19.2</b>
 </br>Xoá các phiên bản cũ nếu có
